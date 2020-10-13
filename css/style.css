@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PaginaExamen</title>
+<style type="text/css">
+img {
+width:300px;
+height: 550px;
+float: left;
+margin-top: 15px;
+margin-right: 20px;
+}
+body {
+background-image: url(); 
+}
+h1 {
+font-size:45px;
+font-family: fantasy;
+color: black;
+-webkit-text-stroke:1.5px;
+  -webkit-text-stroke-color:pink;
+  padding: 5px;
+}
+p {
+
+font-family: fantasy;
+font-size: 25px;
+color: yellow;
+}
+h4 {
+
+font-family: fantasy;
+font-size: 20px;
+color: black;
+
+}
+a:hover{
+	color:black;
+	background: :green;
+
+}
+.greenlink:hover{
+	 color: green;
+	 background: red;

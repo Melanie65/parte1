@@ -1,0 +1,46 @@
+<html>
+<head>
+<title> ingresar contraseña y su repeticion </title>
+<script>	
+function comprobarclave(){
+	clave1 = document.f1.clave1.value
+	clave2 = document.f1.clave2.value
+
+
+	if (clave1 == "nahomi" && clave2 == "giron"){
+		alert("los datos coiciden...\n welcome");
+		var href="paginaWeb.html";
+		window.location=href;
+		}
+
+
+		else{
+			alert("Las dos claves son diferentes...\nIntentelo de nuevo.");
+			var href = "examen1.html";
+			window.location=href;
+		};
+
+	}
+    </script>
+    </head>
+
+    <body bgcolor="#FFDAB9">
+
+    <h1> <center> Ingresar clave y su repeticion </h1> </center>
+    <br>
+     <center>Escriba las claves de acceso indicadas para ingresar ala pagina.</center>
+
+    <br>
+    <form action="" name="f1">
+    clave de acceso: <input type="pasword" name="clave1" size="30">
+    <br>
+    Repite calve de acceso: <input type="pasword" name="clave2" size="30">
+    <br>
+    <input type="button" value="ingresar codigo de acceso" onclick="comprobarclave()">
+
+</form>
+
+</body>
+</html>
+
+
